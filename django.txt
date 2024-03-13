@@ -1,0 +1,12 @@
+가상환경 만들기
+- pip install virtualenv
+- virtualenv env
+
+// 아래부터 생활코딩 강의
+
+프로젝트 시작
+- django-admin startproject project_name
+
+서버실행
+- python manage.py runserver
+- python manage.py runserver 포트번호 (다른 포트로 실행하고 싶으면 포트번호 뒤에 입력)
