@@ -17,4 +17,24 @@
 
 // 아래부터 인스타그램 클론코딩 강의
 
+장고는 MVT (Model, View, Template)
+데이터처리 View
+화면이 Template(템플릿, HTML, CSS)
 
+django rest framework
+장고도 restful하게 쓸 수 있도록
+
+가상환경 설치
+- pip install virtualenv
+
+가상환경 생성
+- virtualenv project_env // 이걸로 했을 때 잘 안되어서 아래방법 이용
+- python -m venv 가상환경이름
+
+가상환경 활성화
+- 가상환경이름\Scripts\activate.bat
+
+가상환경 비활성화
+- deactivate
+
+1시간 2분까지 학습
