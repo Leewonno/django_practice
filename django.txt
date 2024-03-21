@@ -10,3 +10,11 @@
 서버실행
 - python manage.py runserver
 - python manage.py runserver 포트번호 (다른 포트로 실행하고 싶으면 포트번호 뒤에 입력)
+
+앱 만들기
+- django-admin startapp myapp
+
+
+// 아래부터 인스타그램 클론코딩 강의
+
+
