@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'content',
+    'user',
+    # jinstagram은 앱은 아니지만, 앱이라고 인식할 수 있도록 넣어주겠다.
+    # 나중에 migragtion 할 때 필요
+    'jinstagram'
 ]
 
 MIDDLEWARE = [
@@ -120,6 +125,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS = (os.path.join('static'), )
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

@@ -13,6 +13,7 @@
 
 앱 만들기
 - django-admin startapp myapp
+- python manage.py startapp 앱이름
 
 
 // 아래부터 인스타그램 클론코딩 강의
@@ -37,4 +38,16 @@ django rest framework
 가상환경 비활성화
 - deactivate
 
-1시간 2분까지 학습
+앱단위로 관리한다
+
+앱만들기
+- python manage.py startapp 앱이름
+
+앱을 만들고 setting.py에 가서
+INSTALLED_APPS에 내가 생성한 앱 이름을 추가해줘야한다.
+
+
+
+2시간 52분 부터 보기
+
+
