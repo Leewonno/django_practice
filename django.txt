@@ -46,8 +46,10 @@ django rest framework
 앱을 만들고 setting.py에 가서
 INSTALLED_APPS에 내가 생성한 앱 이름을 추가해줘야한다.
 
+ORM
 
+마이그레이션
+- python manage.py makemigrations
 
-2시간 52분 부터 보기
-
-
+실제적으로 DB에 생기게됨
+- python manage.py migrate
